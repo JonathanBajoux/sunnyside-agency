@@ -12,11 +12,12 @@ main{
 
 
 .header .menu{
-    position: absolute;
-    left: 1500px;
+    position: relative;
+    left: 80%;
     top: 150px;
     bottom: 90.15%;
-    width: auto;
+    width: 3vw;
+    border: solid 2px black;
 }
 .header .logo{
     position: absolute;
@@ -55,7 +56,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 102%;
+    width: 101%;
     margin-left: -1%;
     margin-top: -1%;
 
@@ -66,7 +67,7 @@ main{
 .paragraphe1{
     position: absolute;
     background-color: white;
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +79,7 @@ main{
     position: absolute;
     margin-top: 60%;
     color: blueviolet;
+    text-decoration: none;
 }
 .img3 img{
     display: flex;
@@ -101,6 +103,7 @@ main{
     position: absolute;
     color: blueviolet;
     margin-top: 50vw;
+    text-decoration: none;
 }
 .img4 img{
     position: absolute;
@@ -142,14 +145,19 @@ main{
     font-size: 2vw;
 
 }
+.client{
+    position: relative;
+    font-size: 3vw;
+    top: 166vw;
+}
 
 
 .container3{
     position: absolute;
-    margin-top: 175%;
+    margin-top: 170%;
     font-size: 250%;
     background-color: white;
-    width: 100%;
+    width: 98%;
     text-align: center;
     .bloc3 img{
         border-radius: 50%;
@@ -186,5 +194,40 @@ main{
     .sugar { grid-area: 2 / 2 / 3 / 3; 
         width: 50vw;
         height: 50vw;
+    }
+    .bloc7{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vw;
+        list-style-type: none;
+        background: #90D4C6;
+        width: 98vw;
+        height: 70vw;
+        top: 401vw;
+        justify-content: space-evenly;
+        .about{
+        text-decoration: none;
+        color: #458D7E;
+        }
+        .service{
+            text-decoration: none;
+            color: #458D7E;
+        }
+        .project{
+            text-decoration: none;
+            color: #458D7E;
+        }
+    }
+    .sunny{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10vw;
+        color: #458D7E;
+        top: 2vw;
     }
     
