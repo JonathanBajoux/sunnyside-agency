@@ -240,6 +240,14 @@ main {
   color: #458D7E;
 }
 
+.icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30%;
+}
+
 .sunny {
   position: absolute;
   display: flex;
