@@ -224,7 +224,7 @@ main {
   background: #90D4C6;
   width: 98vw;
   height: 70vw;
-  top: 401vw;
+  top: 400vw;
   justify-content: space-evenly;
 }
 .bloc7 .about {
@@ -241,11 +241,18 @@ main {
 }
 
 .icone {
+  position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
-  margin-top: 30%;
+  justify-content: center;
+  margin-top: 380vw;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 25vw;
+}
+.icone li .facebook {
+  width: 100%;
 }
 
 .sunny {
